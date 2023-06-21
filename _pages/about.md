@@ -20,4 +20,7 @@ I also consider myself to be a caring person, very focussed on the needs of othe
 
 What are my current research interests?
 ------
-Current research interests I have are surrounding topics on: Causal Inference, Stochastic Modelling, Statistical Epidemiology and Soft Matter.
+* Causal inference in population genomics
+* Statistical modelling for public health
+* Stochastic processes in biology  
+* Soft matter in physical and biological processes
