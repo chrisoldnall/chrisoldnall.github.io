@@ -25,24 +25,11 @@ COMING SOON
 Publications
 ======
 COMING SOON
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Talks
 ======
 COMING SOON
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
-======
-COMING SOON
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
 ======
 COMING SOON
