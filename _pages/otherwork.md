@@ -1,6 +1,6 @@
 ---
 permalink: /otherwork/
-title: "Non-Acadmeic Work"
+title: "Non-Academic Work"
 excerpt: "Here I detail some of my non-academic work."
 author_profile: true
 redirect_from: 
