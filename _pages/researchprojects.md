@@ -13,21 +13,18 @@ author_profile: true
 
 Current Research Projects
 ====
-</sup></sub>
 <ul>{% for post in site.currentprojects reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}</ul>
 
 Previous Research Projects
 ====
-</sup></sub>
 <ul>{% for post in site.previousprojects reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}</ul>
 
 Masters Research Project
 ====
-</sup></sub>
 <ul>{% for post in site.mastersproject reversed %}
   {% include archive-single-publication.html %}
 {% endfor %}</ul>
