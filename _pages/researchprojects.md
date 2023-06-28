@@ -11,6 +11,8 @@ author_profile: true
 
 {% include base_path %}
 
+So far, research projects I have been involved with have been wide ranging and included a vast range of stakeholders. Having started with my masters research dissertation in causal inference for epidemiology, I then worked in stochastic optimisation for CO2 removal. Following this I then worked in generalised linear modelling for public health, before now working on my full time PhD topic of causal effect estimation using Mendelian randomisation. Further details of each of these projects can be found below.
+
 Current Research Projects
 ====
 <ul>{% for post in site.currentprojects reversed %}
