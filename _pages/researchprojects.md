@@ -22,6 +22,7 @@ Despite widespread application in the biomedical literature, certain assumptions
 
 Previous Research Projects
 ====
+
 January 2022 - April 2022
 ---------
 Understanding the public health waiting times landscape in Scotland: Finding key drivers and forecasting demand. 
