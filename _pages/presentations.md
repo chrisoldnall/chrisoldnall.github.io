@@ -1,19 +1,17 @@
 ---
-layout: archive
-title: "Presentations"
 permalink: /presentations/
+title: "Presentations"
+excerpt: "Here I detail some of my presentations."
 author_profile: true
+redirect_from: 
+  - "/nmp/"
+  - "/nmp.html"
 ---
-
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
 
 The best part, in my opinion, about being a researcher is being able to share your work with those around you! Sometimes that is in the form of a paper, and other times that is through presentations. I typically find the latter more enjoyable to put together, as you really have to consider how the audience will interpret what you put together in a short amount of time. Below are some of the talks I have given so far and I hope you enjoy them.
 
-<h3> European Meeting of Statisticians, Warsaw 2023 <h3>
+European Meeting of Statisticians, Warsaw 2023
+============
     
 Title - Mendelian randomisation: why do we need to talk about pleiotropy?
 Date - Thursday 6th July 2023, 17:20-17:40
