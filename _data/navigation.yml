@@ -9,14 +9,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Software"
-    url: /software/
+  - title: "Supervision"
+    url: /supervision/
     
   - title: "Non-Academic Work"
     url: /otherwork/
 
   - title: "Volunteering"
     url: /volunteering/
-
-  - title: "CV"
-    url: /cv/
