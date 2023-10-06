@@ -22,16 +22,18 @@ Despite widespread application in the biomedical literature, certain assumptions
 
 Previous Research Projects
 ====
-## January 2022 - April 2022
-Understanding the public health waiting times landscape in Scotland: Finding key drivers and forecasting demand. [with M.Brunet-Gusasch and S.Verhees]
+### January 2022 - April 2022
+Understanding the public health waiting times landscape in Scotland: Finding key drivers and forecasting demand. 
+[with M.Brunet-Gusasch and S.Verhees]
 
 This report presents a data-driven analysis of cancer waiting times in Scotland. We analysed open data provided by Public Health Scotland with records of the numbers of patients that were referred and/or treated within 31 and 62 days in different regions. Our goal when analysing this data was twofold. First, we aimed to explore the effect of the COVID-19 pan- demic on the number of cancer referrals and diagnoses. Secondly, we aimed to identify the important factors underlying variation in cancer referrals and diagnoses, such as region or cancer type. Most of our work relied on the application of Generalised Linear Models. Overall, this report shows that the pandemic resulted in a reduction of rates of referral and diagnosis of cancer in Scotland. Moreover, our analysis suggests that these are significantly determined by region, cancer type and age. However, the open source data provided by Public Health Scotland is not sufficient to draw conclusions on the cancer waiting times in Scotland.
 
 **[Download report here](http://chrisoldnall.github.io/files/publichealthscotland2022.pdf)
 Recommended citation: Brunet-Guasch, Meritxell and Oldnall, Christopher A and Verhees, Sofie. (2022). "Understanding the Public Health Waiting Times Landscape in Scotland: Finding Key Drivers and Forecasting Demand." <i>Unpublished</i>.**
 
-## September 2021 - December 2021
-Optimal infrastructure planning for the removal of CO2 from the atmosphere. [with L.Beerens and L.Llamazares]
+### September 2021 - December 2021
+Optimal infrastructure planning for the removal of CO2 from the atmosphere. 
+[with L.Beerens and L.Llamazares]
 
 In this paper we explore the usage of stochastic optimization in deploying an infrastructure built of pipes and ships within the UK in order to transport CO2 from clusters (sources) to sequestration sites in parts of the Northern Sea and East Irish Sea (sinks). After visiting some background of the problem, this paper looks to implement a multistage stochastic linear framework with a nodal formulation. The implementation will lead to a model which can show the most efficient layout of the infrastructure to transport the most CO2 based on a stochastic variable of unknown CO2 capture from each cluster.
 
