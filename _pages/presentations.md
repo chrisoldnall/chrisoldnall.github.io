@@ -29,5 +29,5 @@ This talk will briefly cover the concept of the Mendelian randomisation framewor
 
 [2] Sanderson, E et. al, Mendelian randomization, Nature Reviews Methods Primers, 2022, Volume 2.
 
-**[Download talk slides here](http://chrisoldnall.github.io/files/EMSSlides2023.pdf)
+**[Download talk slides here](http://chrisoldnall.github.io/files/EMS2023Slides.pdf)
 Recommended citation: Oldnall, Christopher A. (2023). "Mendelian Randomisation: Why Do We Need to Talk About Pleiotropy, Talk." <i>Unpublished</i>.**

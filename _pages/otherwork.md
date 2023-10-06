@@ -17,7 +17,7 @@ Media Manager
 -----------
 In this role, I assist [Christine Armstrong](https://www.armstrongpartners.co.uk) in the production of her weekly vlogs. This work is conducted remotely across two days a week, with additional time spent ocassionally looking into analytics and other aspects of Christine's work. 
 
-![The Armstrong Partners Team](images/Christine Armstrong-346.jpg)
+![The Armstrong Partners Team](http://chrisoldnall.github.io/images/Christine Armstrong-346.jpg)
 
 The Coop (June 2022 - Current)
 ======
