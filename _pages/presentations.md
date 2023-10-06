@@ -13,10 +13,10 @@ The best part, in my opinion, about being a researcher is being able to share yo
 European Meeting of Statisticians, Warsaw 2023
 ============
     
-Title - Mendelian randomisation: why do we need to talk about pleiotropy?
-Date - Thursday 6th July 2023, 17:20-17:40
-Location - The University of Warsaw
-Room - 1.40
+- Title: Mendelian randomisation: why do we need to talk about pleiotropy?
+- Date: Thursday 6th July 2023, 17:20-17:40
+- Location: The University of Warsaw
+- Room: 1.40
 
 The days of classical association are coming to the near end in the world of genomics and biology, with many turning to a Causal Inference framework in an attempt to pursue true causal relationships. One such example is the well utilised framework of Mendelian randomisation [2]. Through the use of very large data sets, referred to casually as `omics' data, we can look to form a causal directed acyclic graph (DAG) which determines the true causal relationship between an exposure (typically a transcriptomic or proteomic fea- ture) and outcome (such as some form of cancer) by introducing the genomic data as an instrumental variable.
 
