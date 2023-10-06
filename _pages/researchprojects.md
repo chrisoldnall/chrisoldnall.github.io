@@ -22,7 +22,8 @@ Despite widespread application in the biomedical literature, certain assumptions
 
 Previous Research Projects
 ====
-### January 2022 - April 2022
+January 2022 - April 2022
+---------
 Understanding the public health waiting times landscape in Scotland: Finding key drivers and forecasting demand. 
 [with M.Brunet-Gusasch and S.Verhees]
 
@@ -31,7 +32,8 @@ This report presents a data-driven analysis of cancer waiting times in Scotland.
 **[Download report here](http://chrisoldnall.github.io/files/publichealthscotland2022.pdf)
 Recommended citation: Brunet-Guasch, Meritxell and Oldnall, Christopher A and Verhees, Sofie. (2022). "Understanding the Public Health Waiting Times Landscape in Scotland: Finding Key Drivers and Forecasting Demand." <i>Unpublished</i>.**
 
-### September 2021 - December 2021
+September 2021 - December 2021
+---------
 Optimal infrastructure planning for the removal of CO2 from the atmosphere. 
 [with L.Beerens and L.Llamazares]
 
