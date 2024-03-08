@@ -15,7 +15,7 @@ Currently within the University of Edinburgh, I am employed to teach across all 
 
 School of Mathematics, CSE
 -------------
-For this academic year I will be tutoring on the following courses:
+For this academic year I tutored on the following courses:
 - Statistical Methodology (Y3/4)
 - Regression and Simulation Methods (SMSTC)
 - Applied Statistics (Y3/4)
@@ -30,7 +30,7 @@ This year I will again be working in the Edinburgh Medical School on the MBChB p
 
 The Usher Institute, CMVM
 -------------
-Within the Usher Institute this year, I will be assisting in both the masters programme and also with some undergraduate teaching.
+Within the Usher Institute this year, I assisted in both the masters programme and also with some undergraduate teaching.
 
 ### Undergraduate.
 I was the teaching assistant on the module, **"Data Science for Health and Biomedical Sciences."** This module, which is typically taken in Y3/4 of an undergraduate, primarily looks to give students from across the college a developed ability to programme in R and understand the further uses of data science in the field.
