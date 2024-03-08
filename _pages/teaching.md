@@ -15,21 +15,28 @@ Currently within the University of Edinburgh, I am employed to teach across all 
 
 School of Mathematics, CSE
 -------------
-For the latest academic year I will be tutoring on the following courses:
+For this academic year I will be tutoring on the following courses:
 - Statistical Methodology (Y3/4)
 - Regression and Simulation Methods (SMSTC)
+- Applied Statistics (Y3/4)
+- Linear Modelling, Programming and Solution (Y3/4)
+- Statistical Research Skills (MSc)
 
 The Medical School, CMVM
 -------------
-Once again I will be tutoring on the course, "Research and Evidence Based Medicine (REBM)."
+This year I will again be working in the Edinburgh Medical School on the MBChB programme, within the component "Research and Evidence Based Medicine":
+- Year 1 (Semester 2 Only)
+- Year 2 (Semester 1 and 2)
 
 The Usher Institute, CMVM
 -------------
 Within the Usher Institute this year, I will be assisting in both the masters programme and also with some undergraduate teaching.
 
-For the undergraduate teaching, I will be the teaching assistant on the module, "Data Science for Health and Biomedical Sciences." This module, which is typically taken in Y3 of an undergraduate, primarily looks to give students from across the college a developed ability to programme in R and understand the further uses of data science in the field.
+### Undergraduate.
+I was the teaching assistant on the module, **"Data Science for Health and Biomedical Sciences."** This module, which is typically taken in Y3/4 of an undergraduate, primarily looks to give students from across the college a developed ability to programme in R and understand the further uses of data science in the field.
 
-On the masters programme, I am assisting with the course, "Introduction to Data Science in Health and Social Care."
+### MSc in Data Science for Health and Social Care.
+In Semester 1, I was the lead tutor on the module, **"Introduction to Data Science in Health and Social Care."** In Semester 2, I was the co-course organiser for the module **"Introduction to Statistics for Health and Social Care."**
 
 Centre for Data, Culture and Society (CDCS), CAHSS
 -------------
