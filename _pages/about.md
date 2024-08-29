@@ -22,9 +22,9 @@ What are my current research interests?
 ------
 
 Applied
-A1. Causal Inference in Population Genomics, 
-A2. Deep Learning and Integrative Statistics for Public, Personal and Social Health Care.
+* A1. Causal Inference in Population Genomics, 
+* A2. Deep Learning and Integrative Statistics for Public, Personal and Social Health Care.
 
 Theoretical
-T1. Agnostic Explainability and Uncertainty Quantification of AI Systems,
-T2. Detection of Bias within LLM Type Architectures.
+* T1. Agnostic Explainability and Uncertainty Quantification of AI Systems,
+* T2. Detection of Bias within LLM Type Architectures.
