@@ -1,15 +1,6 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
-
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -43,7 +34,7 @@
 .student-tiles {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
-    gap: 20px; /* Space between the tiles */
+    gap: 20px; /* Adds space between the tiles */
     margin-top: 20px;
   }
   
@@ -51,14 +42,10 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-  
-  .student-tile a {
-    display: block;
     padding: 20px;
-    text-decoration: none;
-    color: inherit; /* Keeps the default text color */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
   }
   
   .student-tile:hover {
@@ -70,9 +57,8 @@
     text-align: center;
   }
   
-  .student-tile h3 {
-    margin-top: 0;
-    font-size: 1.5rem;
+  .student-tile h3 a {
+    text-decoration: none;
     color: #333;
   }
   

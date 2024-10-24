@@ -31,29 +31,25 @@ The ability to identify key trends in accident and emergency (A&E) activity data
 
 <div class="student-tiles">
   <div class="student-tile">
-    <a href="{{ site.baseurl }}/supervision/george-mckay/">
-      <div class="student-tile-content">
-        <h3>George McKay</h3>
-        <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes</p>
-        <p>MScR in Cardiovascular Research</p>
-      </div>
-    </a>
+    <div class="student-tile-content">
+      <h3><a href="{{ site.baseurl }}/supervision/george-mckay/">George McKay</a></h3>
+      <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes</p>
+      <p>MScR in Cardiovascular Research</p>
+    </div>
   </div>
   
-  <div class="student-tile">
-    <a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/">
-      <div class="student-tile-content">
-        <h3>Hui Pheng Teoh</h3>
-        <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
-        <p>MSc in Data Science for Health and Social Care</p>
-      </div>
-    </a>
-  </div>
-  
-  <!-- Empty placeholder tile -->
   <div class="student-tile">
     <div class="student-tile-content">
-      <!-- Intentionally empty to balance the layout -->
+      <h3><a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/">Hui Pheng Teoh</a></h3>
+      <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
+      <p>MSc in Data Science for Health and Social Care</p>
+    </div>
+  </div>
+  
+  <!-- Optional placeholder for the third column -->
+  <div class="student-tile">
+    <div class="student-tile-content">
+      <!-- Empty placeholder or another student -->
     </div>
   </div>
 </div>
