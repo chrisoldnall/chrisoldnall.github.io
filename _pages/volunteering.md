@@ -14,7 +14,7 @@ Royal Statistical Society (RSS), Edinburgh Local Group
 ======
 The [RSS](https://rss.org.uk) have a variety of local and special interest groups. One of which is based in [Edinburgh](https://rss.org.uk/membership/rss-groups-and-committees/groups/edinburgh/). For the last two years I have been involved in the local group helping to arrange and plan a range of statistically related events:
 
-- 2022-2023: Secretary
+- 2022-Current: Secretary
 - 2021-2022: Ordinary Member
 
 CodeBar
@@ -23,4 +23,4 @@ CodeBar
 
 PreWired
 ======
-[Prewired](https://www.prewired.org) is a programming club for those based in Edinburgh (and surrounding areas) who are under 19. It provides a safe space for those who are interested in learning to code, or already know how and want to go even further.
+[Prewired](https://www.prewired.org) is a programming club for those based in Edinburgh (and surrounding areas) who are under 19. It provides a safe space for those who are interested in learning to code, or already know how and want to go even further. Once a month (or sometimes more) I attend a coach and assit the children and young people in developing their logic and programming skills.
