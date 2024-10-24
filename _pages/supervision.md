@@ -33,7 +33,7 @@ The ability to identify key trends in accident and emergency (A&E) activity data
   <div class="student-tile">
     <div class="student-tile-content">
       <h3><a href="{{ site.baseurl }}/supervision/george-mckay/">George McKay</a></h3>
-      <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes</p>
+      <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes.</p>
       <p>MScR in Cardiovascular Research</p>
     </div>
   </div>
@@ -41,7 +41,7 @@ The ability to identify key trends in accident and emergency (A&E) activity data
   <div class="student-tile">
     <div class="student-tile-content">
       <h3><a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/">Hui Pheng Teoh</a></h3>
-      <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
+      <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times.</p>
       <p>MSc in Data Science for Health and Social Care</p>
     </div>
   </div>
