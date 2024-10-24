@@ -3,10 +3,8 @@ title: "Hui Pheng Teoh"
 permalink: /supervision/hui-pheng-teoh/
 ---
 
-# Hui Pheng Teoh, The Usher Institute  
-## MSc in Data Science for Health and Social Care 
+## MSc in Data Science for Health and Social Care, The Usher Institute
 ## *Supervised with K.Banas*
-
 ### Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times.
 Accident and emergency (A&E) attendances and waiting times have been the focus
 of media attention in recent years. Prolonged A&E waiting times can have detrimental
