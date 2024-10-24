@@ -8,7 +8,7 @@ redirect_from:
   - "/nmp.html"
 ---
 
-Currently I am supervising three masters students across a couple of different insitutitons.
+I am currently supervising three master’s students across multiple institutions, each engaged in innovative research projects within the fields of cardiovascular research and data science for health and social care. Their work spans a variety of pressing healthcare challenges, from the analysis of incomplete diabetes data using advanced machine learning models, to the creation of visualisation tools for hybrid closed-loop systems, and the identification of key trends in Scottish accident and emergency activity. Together, these projects aim to apply cutting-edge statistical and machine learning techniques to real-world healthcare data, with the goal of improving patient outcomes and healthcare system efficiency.
 
 ### Maximilian Walden
 ### MScR in Cardiovascular Research
