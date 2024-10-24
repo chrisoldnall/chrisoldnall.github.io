@@ -45,11 +45,4 @@ The ability to identify key trends in accident and emergency (A&E) activity data
       <p>MSc in Data Science for Health and Social Care</p>
     </div>
   </div>
-  
-  <!-- Optional placeholder for the third column -->
-  <div class="student-tile">
-    <div class="student-tile-content">
-      <!-- Empty placeholder or another student -->
-    </div>
-  </div>
 </div>
