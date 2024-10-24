@@ -40,7 +40,9 @@ The ability to identify key trends in accident and emergency (A&E) activity data
   
   <a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/" class="student-tile">
     <div class="student-tile-content">
-      <h3 class="student-name">Hui Pheng Teoh</h3>
+      <div class="student-name">
+      <h3>Hui Pheng Teoh</h3>
+      </div>
       <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
       <p><em>MSc in Data Science for Health and Social Care</em></p>
     </div>
