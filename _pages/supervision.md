@@ -30,19 +30,19 @@ The ability to identify key trends in accident and emergency (A&E) activity data
 ### 2023-2024
 
 <div class="student-tiles">
-  <div class="student-tile">
+  <a href="{{ site.baseurl }}/supervision/george-mckay/" class="student-tile">
     <div class="student-tile-content">
-      <h3><a href="{{ site.baseurl }}/supervision/george-mckay/">George McKay</a></h3>
-      <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes.</p>
-      <p>MScR in Cardiovascular Research</p>
+      <h3>George McKay</h3>
+      <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes</p>
+      <p><em>MScR in Cardiovascular Research</em></p> <!-- Italicised degree title -->
     </div>
-  </div>
+  </a>
   
-  <div class="student-tile">
+  <a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/" class="student-tile">
     <div class="student-tile-content">
-      <h3><a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/">Hui Pheng Teoh</a></h3>
-      <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times.</p>
-      <p>MSc in Data Science for Health and Social Care</p>
+      <h3>Hui Pheng Teoh</h3>
+      <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
+      <p><em>MSc in Data Science for Health and Social Care</em></p> <!-- Italicised degree title -->
     </div>
-  </div>
+  </a>
 </div>
