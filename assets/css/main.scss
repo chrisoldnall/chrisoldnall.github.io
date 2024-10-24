@@ -39,3 +39,44 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.student-tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 20px; /* Space between the tiles */
+    margin-top: 20px;
+  }
+  
+  .student-tile {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .student-tile a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit; /* Keeps the default text color */
+  }
+  
+  .student-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .student-tile-content {
+    text-align: center;
+  }
+  
+  .student-tile h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .student-tile p {
+    margin: 10px 0 0;
+    color: #666;
+  }
