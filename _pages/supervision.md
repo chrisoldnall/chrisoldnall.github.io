@@ -10,16 +10,26 @@ redirect_from:
 
 Currently I am supervising three masters students across a couple of different insitutitons.
 
-<a href="{{ site.baseurl }}/supervision/george-mckay/" class="student-tile">
-  <div>
-    <h3>George McKay</h3>
-    <p>MScR in Cardiovascular Research</p>
-  </div>
-</a>
+## Previous Students
 
-<a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/" class="student-tile">
-  <div>
-    <h3>Hui Pheng Teoh</h3>
-    <p>MSc in Data Science for Health and Social Care</p>
+### 2023-2024
+
+<div class="student-tiles">
+  <div class="student-tile">
+    <a href="{{ site.baseurl }}/supervision/george-mckay/">
+      <div class="student-tile-content">
+        <h3>George McKay</h3>
+        <p>MScR in Cardiovascular Research</p>
+      </div>
+    </a>
   </div>
-</a>
+  
+  <div class="student-tile">
+    <a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/">
+      <div class="student-tile-content">
+        <h3>Hui Pheng Teoh</h3>
+        <p>MSc in Data Science for Health and Social Care</p>
+      </div>
+    </a>
+  </div>
+</div>
