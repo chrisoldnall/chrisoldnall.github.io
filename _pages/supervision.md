@@ -32,17 +32,17 @@ The ability to identify key trends in accident and emergency (A&E) activity data
 <div class="student-tiles">
   <a href="{{ site.baseurl }}/supervision/george-mckay/" class="student-tile">
     <div class="student-tile-content">
-      <h3>George McKay</h3>
+      <h3 class="student-name">George McKay</h3>
       <p>Uncovering key drivers of optimal and sub-optimal blood glucose levels in type 1 diabetes</p>
-      <p><em>MScR in Cardiovascular Research</em></p> <!-- Italicised degree title -->
+      <p><em>MScR in Cardiovascular Research</em></p>
     </div>
   </a>
   
   <a href="{{ site.baseurl }}/supervision/hui-pheng-teoh/" class="student-tile">
     <div class="student-tile-content">
-      <h3>Hui Pheng Teoh</h3>
+      <h3 class="student-name">Hui Pheng Teoh</h3>
       <p>Identifying and explaining key trends in Scottish accident and emergency attendances and waiting times</p>
-      <p><em>MSc in Data Science for Health and Social Care</em></p> <!-- Italicised degree title -->
+      <p><em>MSc in Data Science for Health and Social Care</em></p>
     </div>
   </a>
 </div>

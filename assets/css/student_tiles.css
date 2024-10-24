@@ -8,7 +8,7 @@
 .student-tile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Vertically center the content */
   align-items: center;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -16,9 +16,9 @@
   padding: 20px;
   text-align: center;
   height: 100%;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   text-decoration: none; /* Remove underline from the entire box */
-  color: inherit; /* Keep the default text color */
+  color: inherit; /* Ensure the link color is not changed */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .student-tile:hover {
@@ -26,7 +26,15 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.student-tile h3 {
+.student-tile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Ensure the content is vertically centered */
+  height: 100%;
+}
+
+.student-name {
+  text-decoration: underline; /* Underline only the name */
   margin: 0;
   color: #333;
 }
