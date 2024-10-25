@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Berlin Weekend Schedule</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(120deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.8em;
+            color: #003366;
+            margin: 20px;
+        }
+        .schedule-container {
+            max-width: 900px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .day {
+            margin-bottom: 30px;
+        }
+        .activity {
+            background-color: #f0f0f5;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .time, .location, .description {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .checkmark {
+            font-size: 20px;
+            color: #4CAF50;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: none;
+        }
+        .map-container {
+            height: 200px;
+            border: none;
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Progress Bar */
+        .progress-bar-container {
+            text-align: center;
+            margin-top: 30px;
+            width: 100%;
+        }
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 20px;
+            overflow: hidden;
+            width: 80%;
+            margin: auto;
+            height: 20px;
+            position: relative;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 0.5s;
+        }
+        .progress-text {
+            font-weight: bold;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: white;
+            top: 0;
+            left: 0;
+        }
+        
+        /* Task Check Off */
+        .check-button {
+            background: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .check-button.completed {
+            background: #999;
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Weekend in Berlin</h1>
+    
+    <div class="schedule-container">
+        <h2>Saturday</h2>
+        
+        <div class="day">
+            <div class="activity" data-id="task-1">
+                <div class="time">09:30–10:30</div>
+                <div class="location">Location: <a href="https://thebarn.de" target="_blank">The Barn, Mitte</a></div>
+                <div class="description">Start your Berlin adventure at The Barn, a café famous for artisanal coffee. Pair it with homemade pastries, and chat with baristas about brewing techniques if you're curious!</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.410681917332!2d13.387196676416097!3d52.53007747981692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851cd2c4a7e79%3A0x1f598b1af913c6a9!2sThe%20Barn!5e0!3m2!1sen!2sde!4v1698267438253!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="activity" data-id="task-2">
+                <div class="time">10:30–12:00</div>
+                <div class="location">Location: <a href="https://futurium.de/en" target="_blank">Futurium, Mitte</a></div>
+                <div class="description">Explore interactive exhibits on technology, sustainability, and AI. Try a workshop or visit the rooftop for city views!</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0269711561713!2d13.384540676415456!3d52.53151417981568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db5f4a7e09%3A0x2bf3bc02efbaf58f!2sFuturium!5e0!3m2!1sen!2sde!4v1698267543795!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="activity" data-id="task-3">
+                <div class="time">12:00–13:30</div>
+                <div class="location">Location: <a href="https://markthalleneun.de/en/" target="_blank">Markthalle Neun, Kreuzberg</a></div>
+                <div class="description">Wander through Markthalle Neun, sampling treats like currywurst or focaccia from Sironi Bakery. Perfect for an authentic Berlin market experience.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.8363247981564!2d13.423247276415088!3d52.49928527981221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e36166d20b5%3A0x6a7f0f170faed198!2sMarkthalle%20Neun!5e0!3m2!1sen!2sde!4v1698267585376!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="activity" data-id="task-4">
+                <div class="time">13:30–15:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Focus session: Writing up the HLA report in your bright workspace at the apartment. Create the perfect setting for productivity.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-5">
+                <div class="time">15:00–16:30</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Continue project work with a review of the A&E data. A great way to wrap up your early afternoon productivity streak.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-6">
+                <div class="time">16:30 onwards</div>
+                <div class="location">Location: Berlin city</div>
+                <div class="description">Unscripted time: explore Hackescher Markt’s artsy shops, or enjoy the riverside along the Spree. Ideal for souvenirs or just indulging your curiosity.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-7">
+                <div class="time">19:00</div>
+                <div class="location">Location: <a href="https://burger-meister.de" target="_blank">Burgermeister, Kreuzberg</a> or <a href="https://katzorange.com" target="_blank">Katz Orange, Mitte</a></div>
+                <div class="description">End the day with a memorable meal. Burgermeister offers a classic burger experience, while Katz Orange provides a slow-food ambiance.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+        </div>
+
+        <h2>Sunday</h2>
+        
+        <div class="day">
+            <div class="activity" data-id="task-8">
+                <div class="time">09:00–12:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Morning work session dedicated to OpenAPS data. Enjoy the comfort of working in your cozy setup with some background music.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-9">
+                <div class="time">12:00–13:00</div>
+                <div class="location">Location: <a href="https://cafeeinstein.com/stammhaus-en/" target="_blank">Café Einstein Stammhaus</a></div>
+                <div class="description">Take a break at Café Einstein Stammhaus, an iconic Berlin coffeehouse. Try their Apfelstrudel for an authentic experience.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.056318291412!2d13.394905276415345!3d52.504307079812616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db9ac0cb43%3A0x2e69d49f4e0cb8bc!2sCaf%C3%A9%20Einstein%20Stammhaus!5e0!3m2!1sen!2sde!4v1698267691158!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="activity" data-id="task-10">
+                <div class="time">13:00–15:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Return to your workspace to finish up OpenAPS data. A final productive push before your afternoon adventure.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-11">
+                <div class="time">15:00–17:00</div>
+                <div class="location">Location: <a href="https://eastsidegallery-berlin.de/en/" target="_blank">East Side Gallery</a></div>
+                <div class="description">Explore the East Side Gallery’s murals on the Berlin Wall. Look out for the Fraternal Kiss mural and enjoy this iconic open-air art gallery.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0127320655477!2d13.437599276415495!3d52.50489617981286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e3295d9c4ff%3A0xf5d9f67b84cb5db2!2sEast%20Side%20Gallery!5e0!3m2!1sen!2sde!4v1698267716231!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+            <div class="activity" data-id="task-12">
+                <div class="time">17:00–18:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Final work sprint: Collate past paper questions on electricity, marking the last work task of the day.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-13">
+                <div class="time">18:00–19:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Dinner at home for a cozy meal. Settle in and prepare for your last focused evening of work.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+            
+            <div class="activity" data-id="task-14">
+                <div class="time">19:00–22:00</div>
+                <div class="location">Location: Your apartment, Ziegelstraße 10117</div>
+                <div class="description">Project work on wave slides to finish the weekend on a productive note.</div>
+                <span class="checkmark">✓</span>
+                <button class="check-button">Check Off</button>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar-container">
+            <h3>Progress</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+                <span class="progress-text" id="progress-text">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize tasks from local storage and set up event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            const tasks = document.querySelectorAll('.activity');
+            tasks.forEach(task => {
+                const taskId = task.getAttribute('data-id');
+                const isCompleted = localStorage.getItem(taskId) === 'true';
+                
+                // Set up task completion state from local storage
+                if (isCompleted) {
+                    markTaskAsCompleted(task);
+                }
+
+                // Attach click event to toggle completion
+                const button = task.querySelector('.check-button');
+                button.addEventListener('click', () => toggleTask(task));
+            });
+            updateProgress();
+        });
+
+        // Toggle task completion and save state in local storage
+        function toggleTask(task) {
+            const taskId = task.getAttribute('data-id');
+            const isCompleted = localStorage.getItem(taskId) === 'true';
+
+            if (isCompleted) {
+                localStorage.setItem(taskId, 'false');
+                unmarkTaskAsCompleted(task);
+            } else {
+                localStorage.setItem(taskId, 'true');
+                markTaskAsCompleted(task);
+            }
+            updateProgress();
+        }
+
+        // Mark a task as completed
+        function markTaskAsCompleted(task) {
+            const button = task.querySelector('.check-button');
+            const checkmark = task.querySelector('.checkmark');
+            button.classList.add('completed');
+            button.innerText = 'Undo';
+            checkmark.style.display = 'inline';
+        }
+
+        // Unmark a task as completed
+        function unmarkTaskAsCompleted(task) {
+            const button = task.querySelector('.check-button');
+            const checkmark = task.querySelector('.checkmark');
+            button.classList.remove('completed');
+            button.innerText = 'Check Off';
+            checkmark.style.display = 'none';
+        }
+
+        // Update progress bar based on completed tasks
+        function updateProgress() {
+            const tasks = document.querySelectorAll('.activity');
+            const completedTasks = Array.from(tasks).filter(task => localStorage.getItem(task.getAttribute('data-id')) === 'true');
+            const progress = Math.round((completedTasks.length / tasks.length) * 100);
+            document.getElementById('progress-fill').style.width = progress + '%';
+            document.getElementById('progress-text').innerText = progress + '%';
+        }
+    </script>
+
+</body>
+</html>
