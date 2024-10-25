@@ -54,14 +54,6 @@
             right: 10px;
             display: none;
         }
-        .map-container {
-            height: 200px;
-            border: none;
-            width: 100%;
-            border-radius: 8px;
-            margin-top: 10px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        }
         a {
             color: #0066cc;
             text-decoration: none;
@@ -118,17 +110,6 @@
             cursor: default;
         }
 
-                /* Additional styles for the map */
-        .map-container {
-            max-width: 400px;
-            margin: auto;
-            background: #e0f7fa;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-
         .location-marker {
             cursor: pointer;
             transition: fill 0.3s;
@@ -138,6 +119,25 @@
             font-family: Arial, sans-serif;
             font-weight: bold;
             text-anchor: middle;
+        }
+
+        /* SVG Map Container */
+        .svg-map-container {
+            max-width: 400px;
+            margin: 20px auto;
+            background: #e0f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Google Maps Container */
+        .google-map-container {
+            margin-top: 20px;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -155,7 +155,7 @@
                 <div class="description">Start your Berlin adventure at The Barn, a café famous for artisanal coffee. Pair it with homemade pastries, and chat with baristas about brewing techniques if you're curious!</div>
                 <span class="checkmark">✓</span>
                 <button class="check-button">Check Off</button>
-                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.410681917332!2d13.387196676416097!3d52.53007747981692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851cd2c4a7e79%3A0x1f598b1af913c6a9!2sThe%20Barn!5e0!3m2!1sen!2sde!4v1698267438253!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.410681917332!2d13.387196676416097!3d52.53007747981692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851cd2c4a7e79%3A0x1f598b1af913c6a9!2sThe%20Barn!5e0!3m2!1sen!2sde!4v1698267438253!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
             <div class="activity" data-id="task-2">
@@ -164,7 +164,7 @@
                 <div class="description">Explore interactive exhibits on technology, sustainability, and AI. Try a workshop or visit the rooftop for city views!</div>
                 <span class="checkmark">✓</span>
                 <button class="check-button">Check Off</button>
-                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0269711561713!2d13.384540676415456!3d52.53151417981568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db5f4a7e09%3A0x2bf3bc02efbaf58f!2sFuturium!5e0!3m2!1sen!2sde!4v1698267543795!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0269711561713!2d13.384540676415456!3d52.53151417981568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db5f4a7e09%3A0x2bf3bc02efbaf58f!2sFuturium!5e0!3m2!1sen!2sde!4v1698267543795!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
             <div class="activity" data-id="task-3">
@@ -173,7 +173,7 @@
                 <div class="description">Wander through Markthalle Neun, sampling treats like currywurst or focaccia from Sironi Bakery. Perfect for an authentic Berlin market experience.</div>
                 <span class="checkmark">✓</span>
                 <button class="check-button">Check Off</button>
-                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.8363247981564!2d13.423247276415088!3d52.49928527981221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e36166d20b5%3A0x6a7f0f170faed198!2sMarkthalle%20Neun!5e0!3m2!1sen!2sde!4v1698267585376!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.8363247981564!2d13.423247276415088!3d52.49928527981221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e36166d20b5%3A0x6a7f0f170faed198!2sMarkthalle%20Neun!5e0!3m2!1sen!2sde!4v1698267585376!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
             <div class="activity" data-id="task-4">
@@ -226,7 +226,7 @@
                 <div class="description">Take a break at Café Einstein Stammhaus, an iconic Berlin coffeehouse. Try their Apfelstrudel for an authentic experience.</div>
                 <span class="checkmark">✓</span>
                 <button class="check-button">Check Off</button>
-                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.056318291412!2d13.394905276415345!3d52.504307079812616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db9ac0cb43%3A0x2e69d49f4e0cb8bc!2sCaf%C3%A9%20Einstein%20Stammhaus!5e0!3m2!1sen!2sde!4v1698267691158!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.056318291412!2d13.394905276415345!3d52.504307079812616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851db9ac0cb43%3A0x2e69d49f4e0cb8bc!2sCaf%C3%A9%20Einstein%20Stammhaus!5e0!3m2!1sen!2sde!4v1698267691158!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
             <div class="activity" data-id="task-10">
@@ -243,7 +243,7 @@
                 <div class="description">Explore the East Side Gallery’s murals on the Berlin Wall. Look out for the Fraternal Kiss mural and enjoy this iconic open-air art gallery.</div>
                 <span class="checkmark">✓</span>
                 <button class="check-button">Check Off</button>
-                <iframe class="map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0127320655477!2d13.437599276415495!3d52.50489617981286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e3295d9c4ff%3A0xf5d9f67b84cb5db2!2sEast%20Side%20Gallery!5e0!3m2!1sen!2sde!4v1698267716231!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="google-map-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.0127320655477!2d13.437599276415495!3d52.50489617981286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e3295d9c4ff%3A0xf5d9f67b84cb5db2!2sEast%20Side%20Gallery!5e0!3m2!1sen!2sde!4v1698267716231!5m2!1sen!2sde" allowfullscreen="" loading="lazy"></iframe>
             </div>
             
             <div class="activity" data-id="task-12">
@@ -272,17 +272,17 @@
         </div>
 
             <!-- SVG Map Section -->
-    <div class="map-container">
-        <svg width="300" height="300" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <div class="svg-map-container">
+        <svg width="300" height="300" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
             <!-- Berlin Outline (Stylised) -->
             <path d="M10,10 L90,10 L90,90 L10,90 Z" fill="#f0f0f0" stroke="#333" stroke-width="0.5"/>
-
+    
             <!-- Location Markers -->
-            <circle cx="20" cy="20" r="2" fill="#333" id="the-barn" class="location-marker" />
-            <circle cx="40" cy="40" r="2" fill="#333" id="futurium" class="location-marker" />
-            <circle cx="60" cy="60" r="2" fill="#333" id="markthalle-neun" class="location-marker" />
-            <circle cx="80" cy="20" r="2" fill="#333" id="east-side-gallery" class="location-marker" />
-
+            <circle cx="20" cy="20" r="3" fill="#333" id="the-barn" class="location-marker" />
+            <circle cx="40" cy="40" r="3" fill="#333" id="futurium" class="location-marker" />
+            <circle cx="60" cy="60" r="3" fill="#333" id="markthalle-neun" class="location-marker" />
+            <circle cx="80" cy="20" r="3" fill="#333" id="east-side-gallery" class="location-marker" />
+    
             <!-- Tooltip -->
             <text id="tooltip" x="0" y="0" font-size="5" fill="#333" visibility="hidden">Tooltip</text>
         </svg>
@@ -298,12 +298,14 @@
         </div>
     </div>
 
-    <!-- JavaScript for Interactivity -->
+        <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+    <!-- SVG Tooltip and Marker Interactivity -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const tooltip = document.getElementById('tooltip');
 
-            // Map of locations and their tooltips
             const locations = {
                 'the-barn': { name: 'The Barn', info: 'Artisan Coffee Spot' },
                 'futurium': { name: 'Futurium', info: 'Explore the Future!' },
@@ -311,58 +313,47 @@
                 'east-side-gallery': { name: 'East Side Gallery', info: 'Berlin Wall Murals' }
             };
 
-            // Add hover effects for each location marker
             Object.keys(locations).forEach(id => {
                 const marker = document.getElementById(id);
                 const location = locations[id];
 
-                // Show tooltip on hover
                 marker.addEventListener('mouseover', (e) => {
                     tooltip.setAttribute('x', e.target.getAttribute('cx'));
-                    tooltip.setAttribute('y', e.target.getAttribute('cy') - 2);
+                    tooltip.setAttribute('y', e.target.getAttribute('cy') - 5); // Adjusted tooltip position
                     tooltip.textContent = `${location.name} - ${location.info}`;
                     tooltip.setAttribute('visibility', 'visible');
                 });
 
-                // Hide tooltip when not hovering
                 marker.addEventListener('mouseout', () => {
                     tooltip.setAttribute('visibility', 'hidden');
                 });
 
-                // Change marker color when task is completed
                 marker.addEventListener('click', () => {
-                    marker.setAttribute('fill', '#4CAF50'); // Change color to green for completed
+                    marker.setAttribute('fill', '#4CAF50'); // Green for completed
                     tooltip.textContent = `${location.name} - Completed!`;
                 });
             });
         });
     </script>
 
+    <!-- Task Completion and Progress Scripts -->
     <script>
-        // Initialize tasks from local storage and set up event listeners
         document.addEventListener('DOMContentLoaded', () => {
             const tasks = document.querySelectorAll('.activity');
             tasks.forEach(task => {
                 const taskId = task.getAttribute('data-id');
                 const isCompleted = localStorage.getItem(taskId) === 'true';
+                if (isCompleted) markTaskAsCompleted(task);
                 
-                // Set up task completion state from local storage
-                if (isCompleted) {
-                    markTaskAsCompleted(task);
-                }
-
-                // Attach click event to toggle completion
                 const button = task.querySelector('.check-button');
                 button.addEventListener('click', () => toggleTask(task));
             });
             updateProgress();
         });
 
-        // Toggle task completion and save state in local storage
         function toggleTask(task) {
             const taskId = task.getAttribute('data-id');
             const isCompleted = localStorage.getItem(taskId) === 'true';
-
             if (isCompleted) {
                 localStorage.setItem(taskId, 'false');
                 unmarkTaskAsCompleted(task);
@@ -373,7 +364,6 @@
             updateProgress();
         }
 
-        // Mark a task as completed
         function markTaskAsCompleted(task) {
             const button = task.querySelector('.check-button');
             const checkmark = task.querySelector('.checkmark');
@@ -381,7 +371,6 @@
             button.innerText = 'Undo';
             checkmark.style.display = 'inline';
 
-            // Trigger confetti animation
             confetti({
                 particleCount: 100,
                 spread: 70,
@@ -389,7 +378,6 @@
             });
         }
 
-        // Unmark a task as completed
         function unmarkTaskAsCompleted(task) {
             const button = task.querySelector('.check-button');
             const checkmark = task.querySelector('.checkmark');
@@ -398,7 +386,6 @@
             checkmark.style.display = 'none';
         }
 
-        // Update progress bar based on completed tasks
         function updateProgress() {
             const tasks = document.querySelectorAll('.activity');
             const completedTasks = Array.from(tasks).filter(task => localStorage.getItem(task.getAttribute('data-id')) === 'true');
