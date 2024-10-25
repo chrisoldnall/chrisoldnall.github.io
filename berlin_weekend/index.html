@@ -273,7 +273,7 @@
 
     <!-- SVG Map Section -->
     <div class="svg-map-container">
-        <object data="./Berlin_location_map.svg" type="image/svg+xml" width="300" height="300">
+        <object id="berlinMap" data="./Berlin_location_map.svg" type="image/svg+xml" width="100%" height="auto">
             Your browser does not support SVG.
         </object>
     </div>
@@ -291,38 +291,41 @@
     <!-- Confetti Script -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 
-    <!-- SVG Tooltip and Marker Interactivity -->
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const tooltip = document.getElementById('tooltip');
-
-            const locations = {
-                'the-barn': { name: 'The Barn', info: 'Artisan Coffee Spot' },
-                'futurium': { name: 'Futurium', info: 'Explore the Future!' },
-                'markthalle-neun': { name: 'Markthalle Neun', info: 'Global Food Market' },
-                'east-side-gallery': { name: 'East Side Gallery', info: 'Berlin Wall Murals' }
-            };
-
-            Object.keys(locations).forEach(id => {
-                const marker = document.getElementById(id);
-                const location = locations[id];
-
-                marker.addEventListener('mouseover', (e) => {
-                    tooltip.setAttribute('x', e.target.getAttribute('cx'));
-                    tooltip.setAttribute('y', e.target.getAttribute('cy') - 5); // Adjusted tooltip position
-                    tooltip.textContent = `${location.name} - ${location.info}`;
-                    tooltip.setAttribute('visibility', 'visible');
-                });
-
-                marker.addEventListener('mouseout', () => {
-                    tooltip.setAttribute('visibility', 'hidden');
-                });
-
-                marker.addEventListener('click', () => {
-                    marker.setAttribute('fill', '#4CAF50'); // Green for completed
-                    tooltip.textContent = `${location.name} - Completed!`;
-                });
-            });
+        document.getElementById('berlinMap').addEventListener('load', function() {
+            const svgDoc = this.contentDocument;
+            
+            if (svgDoc) {
+                console.log("SVG loaded successfully");
+    
+                // Verify the main SVG element
+                const mainSvg = svgDoc.querySelector('svg');
+                if (mainSvg) {
+                    console.log("Main SVG element found");
+    
+                    // Create a marker
+                    const marker = svgDoc.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    marker.setAttribute('cx', '320'); // Adjust based on map dimensions
+                    marker.setAttribute('cy', '400'); // Adjust based on map dimensions
+                    marker.setAttribute('r', '5');
+                    marker.setAttribute('fill', '#333');
+                    mainSvg.appendChild(marker); // Append marker to SVG
+                    
+                    // Interactivity - Hover
+                    marker.addEventListener('mouseover', function() {
+                        console.log("Hovered over marker!");
+                    });
+                    
+                    // Interactivity - Click
+                    marker.addEventListener('click', function() {
+                        marker.setAttribute('fill', '#4CAF50'); // Change color on click
+                    });
+                } else {
+                    console.error("Main SVG element not found");
+                }
+            } else {
+                console.error("Unable to access SVG document");
+            }
         });
     </script>
 
