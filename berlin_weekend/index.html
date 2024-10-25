@@ -117,6 +117,28 @@
             background: #999;
             cursor: default;
         }
+
+                /* Additional styles for the map */
+        .map-container {
+            max-width: 400px;
+            margin: auto;
+            background: #e0f7fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .location-marker {
+            cursor: pointer;
+            transition: fill 0.3s;
+        }
+
+        #tooltip {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-anchor: middle;
+        }
     </style>
 </head>
 <body>
@@ -249,6 +271,23 @@
             </div>
         </div>
 
+            <!-- SVG Map Section -->
+    <div class="map-container">
+        <svg width="300" height="300" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <!-- Berlin Outline (Stylised) -->
+            <path d="M10,10 L90,10 L90,90 L10,90 Z" fill="#f0f0f0" stroke="#333" stroke-width="0.5"/>
+
+            <!-- Location Markers -->
+            <circle cx="20" cy="20" r="2" fill="#333" id="the-barn" class="location-marker" />
+            <circle cx="40" cy="40" r="2" fill="#333" id="futurium" class="location-marker" />
+            <circle cx="60" cy="60" r="2" fill="#333" id="markthalle-neun" class="location-marker" />
+            <circle cx="80" cy="20" r="2" fill="#333" id="east-side-gallery" class="location-marker" />
+
+            <!-- Tooltip -->
+            <text id="tooltip" x="0" y="0" font-size="5" fill="#333" visibility="hidden">Tooltip</text>
+        </svg>
+    </div>
+
         <!-- Progress Bar -->
         <div class="progress-bar-container">
             <h3>Progress</h3>
@@ -258,6 +297,46 @@
             </div>
         </div>
     </div>
+
+    <!-- JavaScript for Interactivity -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tooltip = document.getElementById('tooltip');
+
+            // Map of locations and their tooltips
+            const locations = {
+                'the-barn': { name: 'The Barn', info: 'Artisan Coffee Spot' },
+                'futurium': { name: 'Futurium', info: 'Explore the Future!' },
+                'markthalle-neun': { name: 'Markthalle Neun', info: 'Global Food Market' },
+                'east-side-gallery': { name: 'East Side Gallery', info: 'Berlin Wall Murals' }
+            };
+
+            // Add hover effects for each location marker
+            Object.keys(locations).forEach(id => {
+                const marker = document.getElementById(id);
+                const location = locations[id];
+
+                // Show tooltip on hover
+                marker.addEventListener('mouseover', (e) => {
+                    tooltip.setAttribute('x', e.target.getAttribute('cx'));
+                    tooltip.setAttribute('y', e.target.getAttribute('cy') - 2);
+                    tooltip.textContent = `${location.name} - ${location.info}`;
+                    tooltip.setAttribute('visibility', 'visible');
+                });
+
+                // Hide tooltip when not hovering
+                marker.addEventListener('mouseout', () => {
+                    tooltip.setAttribute('visibility', 'hidden');
+                });
+
+                // Change marker color when task is completed
+                marker.addEventListener('click', () => {
+                    marker.setAttribute('fill', '#4CAF50'); // Change color to green for completed
+                    tooltip.textContent = `${location.name} - Completed!`;
+                });
+            });
+        });
+    </script>
 
     <script>
         // Initialize tasks from local storage and set up event listeners
