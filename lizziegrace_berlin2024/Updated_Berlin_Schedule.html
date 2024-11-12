@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Berlin Weekend Schedule</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <style>
+        /* General styling */
+        body { font-family: 'Montserrat', sans-serif; background: linear-gradient(120deg, #f5f7fa, #c3cfe2); color: #333; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        h1 { font-family: 'Playfair Display', serif; font-size: 2.8em; color: #003366; margin: 20px; }
+        .schedule-container { max-width: 900px; background-color: #ffffff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .day { margin-bottom: 30px; }
+        .activity { background-color: #f0f0f5; border-radius: 12px; padding: 15px; margin: 10px 0; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); position: relative; }
+        .time, .location, .description { font-weight: bold; margin-bottom: 5px; }
+        .checkmark { font-size: 20px; color: #4CAF50; position: absolute; top: 10px; right: 10px; display: none; }
+        .check-button { background: #4CAF50; color: white; padding: 5px 10px; border: none; border-radius: 5px; cursor: pointer; position: absolute; bottom: 10px; right: 10px; }
+        .check-button.completed { background: #999; cursor: default; }
+        .google-map-container { margin-top: 20px; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body>
+    <h1>Weekend in Berlin</h1>
+    
+    <div class="schedule-container">
+        <h2>Friday, 15th November 2024</h2>
+        
+        <div class="day">
+            <div class="activity">
+                <div class="time">10:00</div>
+                <div class="description">Grace arrives in Berlin, Chris to meet at airport.</div>
+            </div>
+            <div class="activity">
+                <div class="time">10:30 - 11:00</div>
+                <div class="description">Head to Chris’ on Ziegelstraße to drop off stuff.</div>
+            </div>
+            <div class="activity">
+                <div class="time">11:30 - 12:30</div>
+                <div class="description">Lunch nearby in Mitte.</div>
+            </div>
+            <div class="activity">
+                <div class="time">12:30 - 15:00</div>
+                <div class="description">Explore Hackescher Markt and courtyards.</div>
+            </div>
+            <div class="activity">
+                <div class="time">16:00 - 17:00</div>
+                <div class="description">Chris and Grace to head to Airbnb on Geisburgstraße to drop off stuff.</div>
+            </div>
+            <div class="activity">
+                <div class="time">17:00 - 18:30</div>
+                <div class="description">Chill and get coffee near Airbnb.</div>
+            </div>
+            <div class="activity">
+                <div class="time">18:30 - 19:30</div>
+                <div class="description">Chris head to airport to get Lizzie, Grace can chill.</div>
+            </div>
+            <div class="activity">
+                <div class="time">19:55</div>
+                <div class="description">Lizzie arrives in Berlin.</div>
+            </div>
+            <div class="activity">
+                <div class="time">20:30 - 21:30</div>
+                <div class="description">Head back to Airbnb for snacks and chill/chat.</div>
+            </div>
+        </div>
+        
+        <h2>Saturday, 16th November 2024</h2>
+        
+        <div class="day">
+            <div class="activity">
+                <div class="time">09:00</div>
+                <div class="description">Tempelhof Park for park run.</div>
+            </div>
+            <div class="activity">
+                <div class="time">10:30 - 12:00</div>
+                <div class="description">Go to Markthalle Neun for brunch/markets.</div>
+            </div>
+            <div class="activity">
+                <div class="time">12:30 - 14:00</div>
+                <div class="description">Stroll along the East Side Gallery.</div>
+            </div>
+            <div class="activity">
+                <div class="time">14:30 - 16:00</div>
+                <div class="description">Back to Airbnb/home for shower/change.</div>
+            </div>
+            <div class="activity">
+                <div class="time">16:30 - 18:00</div>
+                <div class="description">Meet at Alexanderplatz for DeJa Vu Museum.</div>
+            </div>
+            <div class="activity">
+                <div class="time">18:30</div>
+                <div class="description">Sushi dinner nearby.</div>
+            </div>
+            <div class="activity">
+                <div class="time">20:00 - 22:00</div>
+                <div class="description">Evening walk around famous Berlin sites.</div>
+            </div>
+        </div>
+        
+        <h2>Sunday, 17th November 2024</h2>
+        
+        <div class="day">
+            <div class="activity">
+                <div class="time">10:00 - 10:30</div>
+                <div class="description">Walk along the Berlin Wall near Mauerpark.</div>
+            </div>
+            <div class="activity">
+                <div class="time">10:30 - 13:00</div>
+                <div class="description">Visit Mauerpark flea market and get lunch.</div>
+            </div>
+            <div class="activity">
+                <div class="time">13:30 - 14:30</div>
+                <div class="description">Go to the Futurium to explore the roof.</div>
+            </div>
+            <div class="activity">
+                <div class="time">15:00 - 16:30</div>
+                <div class="description">Explore Berlin Cathedral and surroundings.</div>
+            </div>
+            <div class="activity">
+                <div class="time">17:00 - 19:00</div>
+                <div class="description">Chill around Kreuzberg district.</div>
+            </div>
+            <div class="activity">
+                <div class="time">19:30</div>
+                <div class="description">Dinner at Prater Garten.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
