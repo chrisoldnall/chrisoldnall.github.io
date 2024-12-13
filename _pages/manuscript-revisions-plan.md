@@ -147,7 +147,3 @@ This page outlines the detailed workflow plan for completing the manuscript revi
 14. Add histograms or numerical summaries for sample sizes.
 15. Refine conclusions and overall discussion.
 16. Justify enrichment analyses and include GS if feasible.
-
----
-
-This structured plan links specific tasks to reviewer points, ensuring each comment is addressed comprehensively. Let me know if you need further refinements!
