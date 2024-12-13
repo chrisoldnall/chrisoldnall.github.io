@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Manuscript Revisions Plan"
 author_profile: true
 permalink: /manuscript-revisions-plan/
