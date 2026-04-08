@@ -8,32 +8,81 @@ redirect_from:
   - "/nmp.html"
 ---
 
-My teaching is now focused on the Edinburgh Medical School (CMVM). Below, current and previous teaching are organised into clickable cards.
+Below, current and previous teaching are organised into clickable cards.
 
 ## Current Teaching
 
 <section class="teaching-block teaching-block--current">
-  <p class="teaching-intro">Current activity is within Edinburgh Medical School only. Module pages are placeholders for now and can be updated as details are finalised.</p>
+  <p class="teaching-intro">Current teaching is shown as three streams. Open each card for details and resources.</p>
   <div class="teaching-cards">
-    <a class="teaching-card teaching-card--current" href="/teaching/current-rebm-year-1/">
+    <a class="teaching-card teaching-card--current" href="/teaching/current-rebm-mbchb/">
       <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
-      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1)</h3>
-      <p>Placeholder page for semester, format, and teaching responsibilities.</p>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (MBChB)</h3>
+      <p>Current stream across Year 1 and Year 2.</p>
     </a>
-    <a class="teaching-card teaching-card--current" href="/teaching/current-rebm-year-2/">
-      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
-      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 2)</h3>
-      <p>Placeholder page for semester, delivery model, and learning outcomes.</p>
+    <a class="teaching-card teaching-card--current" href="/teaching/current-data-science-biomedical-bsc/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Data Science for the Biomedical Sciences (BSc)</h3>
+      <p>Current stream for undergraduate biomedical learners.</p>
     </a>
-    <a class="teaching-card teaching-card--current" href="/teaching/current-medical-school-workshop/">
-      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
-      <h3 class="teaching-card__title">Medical Data Skills Workshop (Placeholder)</h3>
-      <p>Placeholder page for workshop title, level, and supporting materials.</p>
+    <a class="teaching-card teaching-card--current" href="/teaching/current-data-science-health-social-care-msc/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Data Science in Health and Social Care (MSc)</h3>
+      <p>Current stream for MSc-level teaching and support.</p>
     </a>
   </div>
 </section>
 
 ## Previous Teaching
+
+### 2025-2026
+
+<section class="teaching-block">
+  <div class="teaching-cards">
+    <a class="teaching-card" href="/teaching/2025-2026-research-skills-computational-applied-mathematics/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Research Skills for Computational Applied Mathematics (MSc)</h3>
+      <p>MSc teaching stream in computational and applied mathematics.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2025-2026-facets-of-mathematics/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Facets of Mathematics (Y2)</h3>
+      <p>Year 2 support and delivery.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2025-2026-statistical-methodology/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistical Methodology (Y3/4)</h3>
+      <p>Methods-focused teaching for senior undergraduate students.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2025-2026-financial-mathematics/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Financial Mathematics (Y3/4)</h3>
+      <p>Delivery in mathematical finance topics.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2025-2026-rebm-year-1-and-year-2/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1 and Year 2, MBChB)</h3>
+      <p>Teaching across both MBChB years.</p>
+    </a>
+  </div>
+</section>
+
+### 2024-2025
+
+<section class="teaching-block">
+  <div class="teaching-cards">
+    <a class="teaching-card" href="/teaching/2024-2025-rebm-year-1-and-year-2/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1 and Year 2, MBChB)</h3>
+      <p>Teaching across both MBChB years.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2024-2025-mathematical-finance/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Mathematical Finance (Y3/4)</h3>
+      <p>Senior undergraduate module in finance and modelling.</p>
+    </a>
+  </div>
+</section>
 
 ### 2023-2024
 
