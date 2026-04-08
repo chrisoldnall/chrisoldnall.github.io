@@ -8,23 +8,70 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website. If you have found yourself here it is because you want to know a little bit more about me, Chris Oldnall, or potentially the work that I carry out. Perhaps you want to view some of my teaching resources? Well in theory you should find what you need. If you cannot find something you want to know, drop me an email.
+<section class="home-hero">
+  <p class="home-hero__kicker">University of Edinburgh | MAC-MIGS</p>
+  <h1 class="home-hero__title">Mathematical Causal Inference for Real-World Health Questions</h1>
+  <p class="home-hero__lead">I am Chris Oldnall, a PhD researcher developing robust causal inference methods for population genomics, with interests spanning AI reliability, uncertainty quantification, and practical health applications.</p>
+  <div class="home-hero__actions">
+    <a class="btn" href="/researchprojects/">Explore Research</a>
+    <a class="btn btn--inverse" href="/teaching/">View Teaching</a>
+  </div>
+</section>
 
-Who am I?
-------
-To summarise myself, the following comes to mind: enthusiastic and passionate PhD mathematics researcher. I strongly believe that the formal structure of the study of mathematics is reflective of my overall personality being a person who is inherently organised in my thinking and extremely rigorous in my approach to work.
+<section class="quick-links-grid">
+  <a class="quick-link-card" href="/researchprojects/">
+    <h3>Research Projects</h3>
+    <p>Current and past research across genomics, biostatistics, and optimisation.</p>
+  </a>
+  <a class="quick-link-card" href="/presentations/">
+    <h3>Presentations</h3>
+    <p>Talks, invited sessions, and downloadable slides.</p>
+  </a>
+  <a class="quick-link-card" href="/teaching/">
+    <h3>Teaching</h3>
+    <p>Academic teaching and outreach-focused resources.</p>
+  </a>
+  <a class="quick-link-card" href="/supervision/">
+    <h3>Supervision</h3>
+    <p>Projects, mentoring themes, and student collaboration.</p>
+  </a>
+  <a class="quick-link-card" href="/volunteering/">
+    <h3>Volunteering</h3>
+    <p>Community programmes and youth-focused initiatives.</p>
+  </a>
+  <a class="quick-link-card" href="/armstrongpartners/">
+    <h3>Industry</h3>
+    <p>Consulting and applied work through Armstrong and Partners.</p>
+  </a>
+</section>
 
-Currently, I am undertaking my PhD, specifically looking at developing causal inference methodology applied to the population genomics discipline. Formally I sit within the Mathematical Modelling, Analysis and Computation CDT (MAC-MIGS) between The University of Edinburgh and Herriot-Watt University. I am always looking for opportunities to broaden my horizons in terms of mathematical topics and applications - particularly in the fields of Medicine, Language and Deep Learning.
+## Profile
 
-I also consider myself to be a caring person, very focussed on the needs of others, as shown by my commitment to volunteering and work with a local charities PreWired and CodeBar. I have used this passion for helping others as way to develop a range of interpersonal skills such as team working, planning and project management. When not researching, I enjoy teaching and coordinating youth programmes. Most recently this has involved delivering The Seren Award to pupils from across Wales, aged 16-17, via The Brilliant Club.
+I am an enthusiastic and rigorous PhD mathematics researcher focused on methodology that stands up both theoretically and in applied scientific settings.
 
-What are my current research interests?
-------
+My doctoral work develops causal inference methods for population genomics within the Mathematical Modelling, Analysis and Computation CDT between the University of Edinburgh and Heriot-Watt University.
 
-Applied
-* A1. Causal Inference in Population Genomics, 
-* A2. Deep Learning and Integrative Statistics for Public, Personal and Social Health Care.
+## Current Focus Areas
 
-Theoretical
-* T1. Agnostic Explainability and Uncertainty Quantification of AI Systems,
-* T2. Detection of Bias within LLM Type Architectures.
+<section class="focus-grid">
+  <article class="focus-panel">
+    <h3>Applied</h3>
+    <ul>
+      <li>Causal inference in population genomics.</li>
+      <li>Deep learning and integrative statistics for public, personal, and social healthcare.</li>
+    </ul>
+  </article>
+  <article class="focus-panel">
+    <h3>Theoretical</h3>
+    <ul>
+      <li>Agnostic explainability and uncertainty quantification for AI systems.</li>
+      <li>Detection and analysis of bias in LLM-type architectures.</li>
+    </ul>
+  </article>
+</section>
+
+## Beyond Research
+
+I am strongly committed to widening participation and community impact through volunteering and mentoring. This includes work with programmes such as PreWired, CodeBar, and The Brilliant Club.
+
+If you are looking for collaboration opportunities, supervision support, or speaking contributions, please get in touch by email.
