@@ -36,7 +36,14 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.5rem 1rem 0.58rem;
+  line-height: 1.28;
+  color: #fff;
+  border-radius: 16px;
+  background: linear-gradient(130deg, #0b2e59 0%, #005eb8 65%, #1e5ea3 100%);
+  box-shadow: 0 12px 26px rgba(11, 46, 89, 0.24);
 
   & + .page__meta {
     margin-top: -0.5em;

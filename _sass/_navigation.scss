@@ -174,14 +174,14 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 0;
   min-height: 3.25rem;
-  background: $primary-color;
+  background: transparent;
 
   a {
     display: block;
     margin: 0 1rem;
-    padding: 0.7rem 0;
+    padding: 0.62rem 0;
     line-height: 1.35;
     color: $masthead-link-color;
     text-decoration: none;
@@ -201,10 +201,16 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+    border-radius: 16px;
   }
 
   .visible-links {
-    display: table;
+    display: inline-table;
+    max-width: 100%;
+    padding: 0.15rem 0.65rem;
+    border-radius: 16px;
+    background: linear-gradient(130deg, mix(#000, $primary-color, 6%) 0%, $primary-color 60%, mix(#fff, $primary-color, 8%) 100%);
+    box-shadow: 0 10px 24px rgba(8, 24, 47, 0.2);
 
     li {
       display: table-cell;
@@ -222,6 +228,12 @@
         a {
           margin-right: 0;
         }
+      }
+
+      &:first-child a,
+      &:last-child a {
+        padding-left: 0.15rem;
+        padding-right: 0.15rem;
       }
     }
 
