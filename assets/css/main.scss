@@ -347,6 +347,62 @@
   color: #8e1326;
 }
 
+.teaching-card--cse:before {
+  background: linear-gradient(180deg, #0b2e59 0%, #2f6db6 100%);
+}
+
+.teaching-card--cse .teaching-card__school {
+  background: rgba(11, 46, 89, 0.11);
+  color: #0b2e59;
+}
+
+.teaching-card--cse:hover {
+  border-color: #7f9ec9;
+  box-shadow: 0 18px 34px rgba(11, 46, 89, 0.18);
+}
+
+.teaching-card--medical:before {
+  background: linear-gradient(180deg, #a6192e 0%, #d45567 100%);
+}
+
+.teaching-card--medical .teaching-card__school {
+  background: rgba(166, 25, 46, 0.12);
+  color: #8e1326;
+}
+
+.teaching-card--medical:hover {
+  border-color: #d89ca7;
+  box-shadow: 0 18px 34px rgba(166, 25, 46, 0.18);
+}
+
+.teaching-card--usher:before {
+  background: linear-gradient(180deg, #005eb8 0%, #2f90da 100%);
+}
+
+.teaching-card--usher .teaching-card__school {
+  background: rgba(0, 94, 184, 0.12);
+  color: #005eb8;
+}
+
+.teaching-card--usher:hover {
+  border-color: #8fb9df;
+  box-shadow: 0 18px 34px rgba(0, 94, 184, 0.17);
+}
+
+.teaching-card--cdcs:before {
+  background: linear-gradient(180deg, #6a3f8a 0%, #9b68bf 100%);
+}
+
+.teaching-card--cdcs .teaching-card__school {
+  background: rgba(106, 63, 138, 0.13);
+  color: #5c3379;
+}
+
+.teaching-card--cdcs:hover {
+  border-color: #b499cb;
+  box-shadow: 0 18px 34px rgba(106, 63, 138, 0.18);
+}
+
 .page--teaching-detail .page__title {
   display: block;
   max-width: none;

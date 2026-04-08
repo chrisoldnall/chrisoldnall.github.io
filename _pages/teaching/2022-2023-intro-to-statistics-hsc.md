@@ -14,3 +14,15 @@ Introduction to Statistics
 
 ### Notes
 Support within the MSc in Data Science for Health and Social Care.
+
+### DRPS synthesis
+#### Learning objectives
+- Understand core statistical ideas used in health and social care data work.
+- Interpret outputs from introductory statistical analyses.
+
+#### Course content
+- Descriptive statistics, inference, and interpretation of health-data examples.
+- Introductory statistics support for a data-science MSc context.
+
+#### Assessment profile
+- Coursework-based assessment focused on applied statistical tasks.

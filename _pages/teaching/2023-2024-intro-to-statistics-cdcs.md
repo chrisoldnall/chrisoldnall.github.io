@@ -14,3 +14,15 @@ Introduction to Statistics
 
 ### Notes
 Core statistical reasoning for arts and humanities learners.
+
+### DRPS synthesis
+#### Learning objectives
+- Understand the purpose of statistical reasoning in applied settings.
+- Interpret data summaries and basic statistical outputs.
+
+#### Course content
+- Introductory descriptive and inferential statistics.
+- Practical examples geared to arts, humanities, and social science users.
+
+#### Assessment profile
+- Assessed through coursework and/or applied exercises in statistics.

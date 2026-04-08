@@ -14,3 +14,15 @@ Regression and Simulation Methods (SMSTC)
 
 ### Notes
 Simulation and model interpretation support.
+
+### DRPS synthesis
+#### Learning objectives
+- Use regression and simulation methods to analyse statistical problems.
+- Interpret model output and simulation results in context.
+
+#### Course content
+- Regression modelling, simulation, and interpretation of statistical models.
+- Applied examples supporting statistical methodology work.
+
+#### Assessment profile
+- Assessed through the module's standard coursework and exam components.

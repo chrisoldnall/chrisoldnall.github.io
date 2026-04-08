@@ -14,3 +14,15 @@ Data Types and Data Structures in R and Python
 
 ### Notes
 Core data handling and programming foundations.
+
+### DRPS synthesis
+#### Learning objectives
+- Understand and manipulate core data structures in R and Python.
+- Choose appropriate data representations for practical programming tasks.
+
+#### Course content
+- Data types, data structures, and basic programming workflows in R and Python.
+- Practical foundations for later data-science work.
+
+#### Assessment profile
+- Assessed through practical coursework and programming exercises.

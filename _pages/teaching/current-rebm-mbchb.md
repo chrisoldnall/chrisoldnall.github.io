@@ -10,7 +10,7 @@ permalink: /teaching/current-rebm-mbchb/
 Research and Evidence Based Medicine (MBChB)
 
 ### Current scope
-Teaching across Year 1 and Year 2.
+Current teaching stream within the MBChB programme.
 
 ### Notes
 Add delivery pattern, tutorial structure, and assessment support details here.

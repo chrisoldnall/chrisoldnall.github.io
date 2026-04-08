@@ -14,3 +14,15 @@ Incomplete Data Analysis (MSc)
 
 ### Notes
 MSc-level material on missing data methods.
+
+### DRPS synthesis
+#### Learning objectives
+- Analyse problems caused by missing data and select appropriate methods.
+- Understand the implications of incomplete data for inference and modelling.
+
+#### Course content
+- Missing-data mechanisms, imputation, and analysis strategies.
+- MSc-level statistical methods for incomplete data settings.
+
+#### Assessment profile
+- Assessed through the module's normal blend of coursework and exam components.

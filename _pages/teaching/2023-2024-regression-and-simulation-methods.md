@@ -14,3 +14,15 @@ Regression and Simulation Methods (SMSTC)
 
 ### Notes
 Applied statistical modelling support.
+
+### DRPS synthesis
+#### Learning objectives
+- Use regression and simulation ideas to solve applied statistical problems.
+- Interpret model fit and simulation output in context.
+
+#### Course content
+- Regression modelling, simulation methods, and applied statistics support.
+- Problem-solving and model interpretation in statistical settings.
+
+#### Assessment profile
+- Assessed through the module's normal coursework and exam structure.

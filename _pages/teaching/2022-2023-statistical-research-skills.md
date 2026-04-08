@@ -14,3 +14,15 @@ Statistical Research Skills (MSc)
 
 ### Notes
 Research design and applied analysis support.
+
+### DRPS synthesis
+#### Learning objectives
+- Build the research and communication skills needed for advanced statistics work.
+- Critically evaluate literature and present technical material clearly.
+
+#### Course content
+- Research design, applied analysis, reading, and reporting.
+- Small-group support for methods-focused work.
+
+#### Assessment profile
+- Assessed through coursework, typically involving written and/or oral output.

@@ -14,3 +14,15 @@ Statistical Methodology (Y3/4)
 
 ### Notes
 Tutoring and problem-based support.
+
+### DRPS synthesis
+#### Learning objectives
+- Apply likelihood-based statistical ideas to estimation and testing.
+- Fit and interpret linear models using statistical software.
+
+#### Course content
+- Likelihood methods, maximum likelihood estimation, and normal linear models.
+- Theory-led statistics taught through tutorial and problem-based formats.
+
+#### Assessment profile
+- Assessed through the module's standard coursework/exam balance.

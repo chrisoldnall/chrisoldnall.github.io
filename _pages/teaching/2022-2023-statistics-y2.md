@@ -14,3 +14,15 @@ Statistics (Y2)
 
 ### Notes
 Core undergraduate statistics teaching support.
+
+### DRPS synthesis
+#### Learning objectives
+- Build understanding of core statistical concepts at Year 2 level.
+- Apply statistical tools to problems and interpret the resulting output.
+
+#### Course content
+- Introductory undergraduate statistics and problem-solving support.
+- Core material that underpins later applied and theoretical statistics courses.
+
+#### Assessment profile
+- Assessed through the underlying course's standard exam/coursework structure.
