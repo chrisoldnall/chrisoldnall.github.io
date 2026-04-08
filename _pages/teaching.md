@@ -8,68 +8,163 @@ redirect_from:
   - "/nmp.html"
 ---
 
-Currently within the University of Edinburgh, I am employed to teach across all three colleges in the univeristy: The College of Science and Engineering (CSE), The College of Medicine and Vetinary Medicine (CMVM), and The College of Arts, Humanities and Social Sciences (CAHSS). The level of involvement and delivery varies between locations and so below I list my teaching experience so far.
+My teaching is now focused on the Edinburgh Medical School (CMVM). Below, current and previous teaching are organised into clickable cards.
 
-2023-2024
-=============
+## Current Teaching
 
-School of Mathematics, CSE
--------------
-For this academic year I tutored on the following courses:
-- Statistical Methodology (Y3/4)
-- Regression and Simulation Methods (SMSTC)
-- Applied Statistics (Y3/4)
-- Linear Modelling, Programming and Solution (Y3/4)
-- Statistical Research Skills (MSc)
+<section class="teaching-block teaching-block--current">
+  <p class="teaching-intro">Current activity is within Edinburgh Medical School only. Module pages are placeholders for now and can be updated as details are finalised.</p>
+  <div class="teaching-cards">
+    <a class="teaching-card teaching-card--current" href="/teaching/current-rebm-year-1/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1)</h3>
+      <p>Placeholder page for semester, format, and teaching responsibilities.</p>
+    </a>
+    <a class="teaching-card teaching-card--current" href="/teaching/current-rebm-year-2/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 2)</h3>
+      <p>Placeholder page for semester, delivery model, and learning outcomes.</p>
+    </a>
+    <a class="teaching-card teaching-card--current" href="/teaching/current-medical-school-workshop/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Medical Data Skills Workshop (Placeholder)</h3>
+      <p>Placeholder page for workshop title, level, and supporting materials.</p>
+    </a>
+  </div>
+</section>
 
-The Medical School, CMVM
--------------
-This year I will again be working in the Edinburgh Medical School on the MBChB programme, within the component "Research and Evidence Based Medicine":
-- Year 1 (Semester 2 Only)
-- Year 2 (Semester 1 and 2)
+## Previous Teaching
 
-The Usher Institute, CMVM
--------------
-Within the Usher Institute this year, I assisted in both the masters programme and also with some undergraduate teaching.
+### 2023-2024
 
-### Undergraduate.
-I was the teaching assistant on the module, **"Data Science for Health and Biomedical Sciences."** This module, which is typically taken in Y3/4 of an undergraduate, primarily looks to give students from across the college a developed ability to programme in R and understand the further uses of data science in the field.
+<section class="teaching-block">
+  <div class="teaching-cards">
+    <a class="teaching-card" href="/teaching/2023-2024-statistical-methodology/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistical Methodology (Y3/4)</h3>
+      <p>Tutoring and problem-based support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-regression-and-simulation-methods/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Regression and Simulation Methods (SMSTC)</h3>
+      <p>Applied statistical modelling support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-applied-statistics/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Applied Statistics (Y3/4)</h3>
+      <p>Tutorial delivery and technical guidance.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-linear-modelling-programming-and-solution/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Linear Modelling, Programming and Solution (Y3/4)</h3>
+      <p>Support for modelling and computational methods.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-statistical-research-skills/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistical Research Skills (MSc)</h3>
+      <p>Methods-focused small-group teaching.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-rebm-year-1/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1)</h3>
+      <p>Critical appraisal and core statistics.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-rebm-year-2/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 2)</h3>
+      <p>Continuation of REBM across both semesters.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-data-science-for-health-and-biomedical-sciences/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Data Science for Health and Biomedical Sciences</h3>
+      <p>Undergraduate module support in R and data science.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-intro-to-data-science-health-and-social-care/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Introduction to Data Science in Health and Social Care</h3>
+      <p>Lead tutor role in Semester 1.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-intro-to-statistics-health-and-social-care/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Introduction to Statistics for Health and Social Care</h3>
+      <p>Co-course organiser role in Semester 2.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-intro-to-python-programming/">
+      <span class="teaching-card__school">CDCS, CAHSS</span>
+      <h3 class="teaching-card__title">Introduction to Python Programming</h3>
+      <p>Foundational programming teaching for mixed-discipline cohorts.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-intro-to-r-and-rstudio/">
+      <span class="teaching-card__school">CDCS, CAHSS</span>
+      <h3 class="teaching-card__title">Introduction to R and RStudio</h3>
+      <p>Practical data analysis and reproducible workflows.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2023-2024-intro-to-statistics-cdcs/">
+      <span class="teaching-card__school">CDCS, CAHSS</span>
+      <h3 class="teaching-card__title">Introduction to Statistics</h3>
+      <p>Core statistical reasoning for arts and humanities learners.</p>
+    </a>
+  </div>
+</section>
 
-### MSc in Data Science for Health and Social Care.
-In Semester 1, I was the lead tutor on the module, **"Introduction to Data Science in Health and Social Care."** In Semester 2, I was the co-course organiser for the module **"Introduction to Statistics for Health and Social Care."**
+### 2022-2023
 
-Centre for Data, Culture and Society (CDCS), CAHSS
--------------
-As a teaching fellow in the CDCS I will be creating, developing and delivering a range of courses in conjunction with my colleagues. These are all courses made to be accessible to those working in arts, humanities and social sciences, and all include an element of programming. So far this includes:
-
-- Introduction to Python Programming
-- Introduction to R and RStudio
-- Introduction to Statistics
-
-2022-2023
-=============
-
-School of Mathematics, CSE 
--------------
-In the 2022-2023 year I was involved in a variety of course across probability, statistics, operational research and applied and computational mathematics. These were:
-
-- Probability (Y2)
-- Statistics (Y2)
-- Statistical Methodology (Y3/4)
-- Linear Programming, Modelling and Solution (Y3/4)
-- Incomplete Data Analysis (MSc)
-- Statistical Research Skills (MSc)
-- Regression and Simulation Methods (SMSTC)
-
-Cover work for: Several Variable Calculus and Differential Equations, Fundamentals of Optimisation.
-
-The Medical School, CMVM 
--------------
-For 2022-2023, I also began teaching within the school of medicine the module "Research and Evidence Based Medicine (REBM)." This module introduces medical students to the concept of critical thinking when reviewing papers, as well as several statistical concepts and programming in R.
-
-The Usher Institute, CMVM
--------------
-Within The Usher Institute, there is a part-time 3 year masters programme, "Data Science for Health and Social Care." As part of this programme, I assisted in tutoring on the following modules:
-
-- Introduction to Statistics
-- Data Types and Data Structures in R and Python
+<section class="teaching-block">
+  <div class="teaching-cards">
+    <a class="teaching-card" href="/teaching/2022-2023-probability/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Probability (Y2)</h3>
+      <p>Tutorial support in probability foundations.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-statistics-y2/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistics (Y2)</h3>
+      <p>Core undergraduate statistics teaching support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-statistical-methodology/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistical Methodology (Y3/4)</h3>
+      <p>Methods and applications tutorials.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-linear-programming-modelling-and-solution/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Linear Programming, Modelling and Solution (Y3/4)</h3>
+      <p>Operational research and optimisation support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-incomplete-data-analysis/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Incomplete Data Analysis (MSc)</h3>
+      <p>MSc-level material on missing data methods.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-statistical-research-skills/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Statistical Research Skills (MSc)</h3>
+      <p>Research design and applied analysis support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-regression-and-simulation-methods/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Regression and Simulation Methods (SMSTC)</h3>
+      <p>Simulation and model interpretation support.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-cover-work-mathematics/">
+      <span class="teaching-card__school">School of Mathematics, CSE</span>
+      <h3 class="teaching-card__title">Cover Teaching Across Mathematics</h3>
+      <p>Several Variable Calculus and Differential Equations; Fundamentals of Optimisation.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-rebm/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Research and Evidence Based Medicine (REBM)</h3>
+      <p>Early delivery in critical appraisal, statistics, and R.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-intro-to-statistics-hsc/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Introduction to Statistics</h3>
+      <p>Support within the MSc in Data Science for Health and Social Care.</p>
+    </a>
+    <a class="teaching-card" href="/teaching/2022-2023-data-types-and-data-structures/">
+      <span class="teaching-card__school">Usher Institute, CMVM</span>
+      <h3 class="teaching-card__title">Data Types and Data Structures in R and Python</h3>
+      <p>Core data handling and programming foundations.</p>
+    </a>
+  </div>
+</section>
