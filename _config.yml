@@ -10,7 +10,7 @@ locale                   : "en-UK"
 title                    : "Chris Oldnall"
 title_separator          : "-"
 name                     : &name "Chris Oldnall"
-description              : &description "The website for Chris Oldnall."
+description              : &description "Lecturer in Data Science at the Edinburgh Medical School."
 url                      : https://chrisoldnall.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chrisoldnall/chrisoldnall.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Chris Oldnall"
   avatar           : "profile.jpg"
-  bio              : "PhD researcher with the MAC-MIGS programme."
+  bio              : "Lecturer in Data Science, Edinburgh Medical School."
   location         : "Edinburgh, United Kingdom."
-  employer         :
+  employer         : "The University of Edinburgh"
   pubmed           : 
   googlescholar    : 
   email            :  "chris.oldnall@ed.ac.uk"
