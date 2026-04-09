@@ -61,6 +61,16 @@ Below, current and previous teaching are organised into clickable cards.
       <h3 class="teaching-card__title">Research and Evidence Based Medicine (Year 1 and Year 2, MBChB)</h3>
       <p>Teaching across both MBChB years.</p>
     </a>
+    <a class="teaching-card teaching-card--medical" href="/teaching/2025-2026-intro-to-statistics-health-and-social-care/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Introduction to Statistics in Health and Social Care (MSc)</h3>
+      <p>Course organiser; moved to Edinburgh Medical School in 2025-2026.</p>
+    </a>
+    <a class="teaching-card teaching-card--medical" href="/teaching/2025-2026-foundations-machine-learning-health-and-social-care/">
+      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
+      <h3 class="teaching-card__title">Foundations of Machine Learning for Health and Social Care (MSc)</h3>
+      <p>Course organiser in 2025-2026.</p>
+    </a>
   </div>
 </section>
 
