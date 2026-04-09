@@ -450,19 +450,29 @@
 .page__content a.research-card,
 .page__content a.research-card:hover,
 .page__content a.research-card:focus,
+.archive a.research-card,
+.archive a.research-card:hover,
+.archive a.research-card:focus,
 .page__content a.research-card h3,
 .page__content a.research-card p,
-.page__content a.research-card span {
+.page__content a.research-card span,
+.archive a.research-card h3,
+.archive a.research-card p,
+.archive a.research-card span {
   text-decoration: none;
 }
 
 .page__content a.research-card,
-.page__content a.research-card * {
+.page__content a.research-card *,
+.archive a.research-card,
+.archive a.research-card * {
   text-decoration: none !important;
 }
 
 .page__content a.student-tile,
-.page__content a.student-tile * {
+.page__content a.student-tile *,
+.archive a.student-tile,
+.archive a.student-tile * {
   text-decoration: none !important;
 }
 
