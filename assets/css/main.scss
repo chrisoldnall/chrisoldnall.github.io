@@ -403,6 +403,163 @@
   box-shadow: 0 18px 34px rgba(106, 63, 138, 0.18);
 }
 
+.research-block {
+  margin: 0.95rem 0 1.9rem;
+  padding: 1rem;
+  border: 1px solid #d5deeb;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.97) 0%, rgba(245, 249, 254, 0.97) 100%);
+  box-shadow: 0 14px 28px rgba(11, 46, 89, 0.08);
+}
+
+.research-block--current {
+  border-color: #b8cdea;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(239, 247, 255, 0.98) 100%),
+    linear-gradient(135deg, rgba(0, 94, 184, 0.1), rgba(11, 46, 89, 0.08));
+}
+
+.research-block--masters {
+  border-color: #d6dced;
+}
+
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.95rem;
+}
+
+.research-card {
+  position: relative;
+  display: block;
+  padding: 1rem 1rem 1rem;
+  border-radius: 14px;
+  border: 1px solid #c8d7e9;
+  background: #fff;
+  color: #132238;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(11, 46, 89, 0.1);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.page__content a.research-card,
+.page__content a.research-card:hover,
+.page__content a.research-card:focus,
+.page__content a.research-card h3,
+.page__content a.research-card p,
+.page__content a.research-card span {
+  text-decoration: none;
+}
+
+.research-card:before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5px;
+  border-radius: 14px 0 0 14px;
+  background: linear-gradient(180deg, #005eb8 0%, #0b2e59 100%);
+}
+
+.research-card:after {
+  content: "→";
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.75rem;
+  color: #005eb8;
+  font-size: 1.1rem;
+  font-weight: 700;
+  opacity: 0.62;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.research-card__tag {
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+  padding: 0.16rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(0, 94, 184, 0.11);
+  color: #005eb8;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.research-card h3 {
+  margin: 0 0 0.35rem;
+  color: #0b2e59;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  padding-right: 1rem;
+}
+
+.research-card p {
+  margin: 0;
+  color: #3b4d65;
+  padding-right: 1.2rem;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+  border-color: #92aed2;
+  box-shadow: 0 18px 34px rgba(11, 46, 89, 0.16);
+}
+
+.research-card:hover:after {
+  transform: translateX(3px);
+  opacity: 0.95;
+}
+
+.research-card--genetics:before,
+.research-card--thesis:before {
+  background: linear-gradient(180deg, #005eb8 0%, #0b2e59 100%);
+}
+
+.research-card--genetics .research-card__tag,
+.research-card--thesis .research-card__tag {
+  background: rgba(0, 94, 184, 0.11);
+  color: #005eb8;
+}
+
+.research-card--plm:before {
+  background: linear-gradient(180deg, #8e1326 0%, #c93f57 100%);
+}
+
+.research-card--plm .research-card__tag {
+  background: rgba(166, 25, 46, 0.12);
+  color: #8e1326;
+}
+
+.research-card--materials:before,
+.research-card--industry:before {
+  background: linear-gradient(180deg, #6a3f8a 0%, #9b68bf 100%);
+}
+
+.research-card--materials .research-card__tag,
+.research-card--industry .research-card__tag {
+  background: rgba(106, 63, 138, 0.13);
+  color: #5c3379;
+}
+
+.research-card--breadth:before {
+  background: linear-gradient(180deg, #13795b 0%, #1ea179 100%);
+}
+
+.research-card--breadth .research-card__tag {
+  background: rgba(19, 121, 91, 0.12);
+  color: #11664d;
+}
+
+.research-card--masters:before {
+  background: linear-gradient(180deg, #3b5b7f 0%, #678ab1 100%);
+}
+
+.research-card--masters .research-card__tag {
+  background: rgba(59, 91, 127, 0.13);
+  color: #314d6c;
+}
+
 .page--teaching-detail .page__title {
   display: block;
   max-width: none;
@@ -458,6 +615,14 @@
 
   .teaching-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .research-block {
+    padding: 1.2rem;
+  }
+
+  .research-cards--three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .page--teaching-detail .page__content {
