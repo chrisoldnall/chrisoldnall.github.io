@@ -12,4 +12,4 @@ Media Manager
 -----------
 In August 2020, I began working with [Christine Armstrong](https://www.armstrongpartners.co.uk) in the production of her weekly vlogs. This work is conducted remotely across one evening and early morning each week, with additional time spent ocassionally looking into analytics and other aspects of Christine's work.
 
-![The Armstrong Partners Team]({{ site.baseurl }}/images/Christine%20Armstrong-346.jpg)
+![The Armstrong Partners Team]({{ site.baseurl }}/images/ArmstrongPartners.jpg)
