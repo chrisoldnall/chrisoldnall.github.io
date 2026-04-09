@@ -13,12 +13,19 @@ Below, current and previous teaching are organised into clickable cards.
 ## Current Teaching
 
 <section class="teaching-block teaching-block--current">
-  <p class="teaching-intro">Current teaching is based in Edinburgh Medical School. Open the card for details and resources.</p>
+  <p class="teaching-intro">Current teaching is organised by theme within Edinburgh Medical School.</p>
   <div class="teaching-cards">
-    <a class="teaching-card teaching-card--current teaching-card--medical" href="/teaching/current-rebm-mbchb/">
-      <span class="teaching-card__school">Edinburgh Medical School, CMVM</span>
-      <h3 class="teaching-card__title">Research and Evidence Based Medicine (MBChB)</h3>
-      <p>Current teaching stream within the MBChB programme.</p>
+    <a class="teaching-card teaching-card--current teaching-card--medical" href="/teaching/current-mbchb/">
+      <h3 class="teaching-card__title">MBChB</h3>
+      <p>Theme page covering current teaching in Research and Evidence Based Medicine (REBM).</p>
+    </a>
+    <a class="teaching-card teaching-card--current teaching-card--medical" href="/teaching/current-biomedical-sciences-bsc/">
+      <h3 class="teaching-card__title">Biomedical Sciences (BSc)</h3>
+      <p>Theme page for current teaching activities across Biomedical Sciences programmes.</p>
+    </a>
+    <a class="teaching-card teaching-card--current teaching-card--medical" href="/teaching/current-data-science-health-social-care-msc/">
+      <h3 class="teaching-card__title">Data Science in Health and Social Care (MSc)</h3>
+      <p>Theme page for current MSc teaching streams and support.</p>
     </a>
   </div>
 </section>

@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "Current: Research and Evidence Based Medicine (MBChB)"
-permalink: /teaching/current-rebm-mbchb/
+permalink: /teaching/current-mbchb/
+redirect_from:
+	- /teaching/current-rebm-mbchb/
 ---
 
 ## Edinburgh Medical School, CMVM
