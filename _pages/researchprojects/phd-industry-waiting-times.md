@@ -16,5 +16,5 @@ With M. Brunet-Gusasch and S. Verhees.
 This project analysed Scottish cancer waiting times data to examine pandemic effects and identify key drivers of variation in referral and diagnosis patterns, using generalised linear models.
 
 ### Outputs
-- Report: http://chrisoldnall.github.io/files/publichealthscotland2022.pdf
+- [Read report (PDF)](http://chrisoldnall.github.io/files/publichealthscotland2022.pdf)
 - Recommended citation: Brunet-Guasch, Meritxell and Oldnall, Christopher A and Verhees, Sofie. (2022). "Understanding the Public Health Waiting Times Landscape in Scotland: Finding Key Drivers and Forecasting Demand." Unpublished.

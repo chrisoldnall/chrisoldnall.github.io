@@ -16,5 +16,5 @@ With L. Beerens and L. Llamazares.
 This work explored stochastic optimisation for UK CO2 transport infrastructure, modelling flows from source clusters to sequestration sinks via pipes and ships.
 
 ### Outputs
-- Report: http://chrisoldnall.github.io/files/optimalinfrastructure2021.pdf
+- [Read report (PDF)](http://chrisoldnall.github.io/files/optimalinfrastructure2021.pdf)
 - Recommended citation: Beerens, Lucas and Llamazares, Liam and Oldnall, Christopher A. (2021). "Optimal Infrastructure Planning for the Removal of CO2 from the Atmosphere." Unpublished.

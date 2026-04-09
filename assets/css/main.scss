@@ -273,6 +273,11 @@
   text-decoration: none;
 }
 
+.page__content a.teaching-card,
+.page__content a.teaching-card * {
+  text-decoration: none !important;
+}
+
 .page__content a.teaching-card .teaching-card__title,
 .page__content a.teaching-card .teaching-card__school,
 .page__content a.teaching-card p {
@@ -449,6 +454,16 @@
 .page__content a.research-card p,
 .page__content a.research-card span {
   text-decoration: none;
+}
+
+.page__content a.research-card,
+.page__content a.research-card * {
+  text-decoration: none !important;
+}
+
+.page__content a.student-tile,
+.page__content a.student-tile * {
+  text-decoration: none !important;
 }
 
 .research-card:before {

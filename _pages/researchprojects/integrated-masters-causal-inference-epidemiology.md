@@ -13,5 +13,5 @@ Causal Inference in Epidemiology: The Effect of Socio-economic Intervention.
 As part of the MMath award, this dissertation developed core causal inference theory and applied it in an epidemiological setting.
 
 ### Outputs
-- Dissertation: http://chrisoldnall.github.io/files/causalinferenceepidemiology.pdf
+- [Read dissertation (PDF)](http://chrisoldnall.github.io/files/causalinferenceepidemiology.pdf)
 - Recommended citation: Oldnall, Christopher A. (2021). "Causal Inference in Epidemiology: The Effect of Socio-economic Intervention." Unpublished.
